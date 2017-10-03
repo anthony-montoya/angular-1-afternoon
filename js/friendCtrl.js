@@ -10,6 +10,4 @@ angular.module('myApp').controller('friendCtrl', function($scope) {
         property: "name",
         direction: "+"
     }
-
-    $scope.optionsFilter = [{ name: '' }, { state: '' }, { property: "name" }, { direction: "+" }]
 })
